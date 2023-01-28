@@ -349,6 +349,6 @@ C:\Users\manu0\Documents\latino.portfolio\portfolio\obj\Debug\netstandard2.1\por
 C:\Users\manu0\Documents\latino.portfolio\portfolio\obj\Debug\netstandard2.1\portfolio.pdb
 C:\Users\manu0\Documents\latino.portfolio\portfolio\obj\Debug\netstandard2.1\RazorDeclaration\Shared\Content.razor.g.cs
 C:\Users\manu0\Documents\latino.portfolio\portfolio\obj\Debug\netstandard2.1\Razor\Shared\Content.razor.g.cs
-C:\Users\manu0\Documents\latino.portfolio\portfolio\obj\Debug\netstandard2.1\integrity\aKhrUp2kgotmn1oFhf_ioDe1oxJXDBHPaAFAftyVEOs=.hash
-C:\Users\manu0\Documents\latino.portfolio\portfolio\obj\Debug\netstandard2.1\integrity\xW9t6tGXe5JOBG_XaOrxQqBE47gc1VbmNgZvgP0Fu2s=.hash
-C:\Users\manu0\Documents\latino.portfolio\portfolio\obj\Debug\netstandard2.1\integrity\ASVGW3T3KVLTe0Mpg-pmXXnBO2nGdGlIFTmAHbVBotc=.hash
+C:\Users\manu0\Documents\latino.portfolio\portfolio\obj\Debug\netstandard2.1\integrity\TNT4qn4LJ8iLMXIzJUrHDAIPwkAJEFYYdmnlDQTbdpE=.hash
+C:\Users\manu0\Documents\latino.portfolio\portfolio\obj\Debug\netstandard2.1\integrity\D53GaAwPLCsp7-n59XgxcOHfrov3MiY-RZu8p7BVQ9E=.hash
+C:\Users\manu0\Documents\latino.portfolio\portfolio\obj\Debug\netstandard2.1\integrity\1wqNBb4q-do_UYplLlzaGxT_BG7qCrzL3cK_eBXJd4E=.hash

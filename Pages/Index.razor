@@ -1,12 +1,14 @@
 ﻿@page "/"
 
 <div class="header">
-    <nav class="navbar justify-content-end py-0 px-3">
-        <div class="mx-2" @onclick="() => ToggleContent(0)">
-            <p class="my-auto">Experiences</p>
-        </div>
-        <div class="mx-2" @onclick="() => ToggleContent(1)">
-            <p class="my-auto">Contacts</p>
+    <nav class="navbar py-0 px-3">
+        <div class="container-xl d-flex justify-content-end">
+            <div class="mx-2" @onclick="() => ToggleContent(0)">
+                <p class="my-auto">Experiences</p>
+            </div>
+            <div class="mx-2" @onclick="() => ToggleContent(1)">
+                <p class="my-auto">Contacts</p>
+            </div>
         </div>
     </nav>
 </div>
@@ -20,22 +22,30 @@
     <div class="d-md-flex flex-md-wrap">
         @if (_toggleContent[0])
         {
-            <Content OuterClass="col-12 col-md-6" InnerClass="p-3">
+            <Content OuterClass="col-12 col-md-6 mb-md-4" InnerClass="p-3">
                 <p class="mb-0"><b>Domec S.p.A.</b> ASP.NET Developer & Frontend (2022-2023)</p>
                 <p class="mb-0">Experience in styling pages</p>
                 <p class="mb-0">HTML, CSS, Js | Razor Views | Blazor</p>
+                <p class="mb-0">Experience with mediatr pattern, service pattern, hanlding data from db (NHibernate), light knowledge of SQL and relational databases.</p>
             </Content>
-            <Content OuterClass="col-12 col-md-6" InnerClass="p-3">
+            <Content OuterClass="col-12 col-md-6 mb-md-4" InnerClass="p-3">
+                <p class="mb-0"><b>ITIS G.Galilei</b> Tutor STEM (2019-2020) </p>
+                <p class="mb-0">Classes of robotics for younger students, from the basics of designing to more complex systems.</p>
+                <p class="mb-0">Following the path of the previous champions, the classes built basic software for the pre-built M-Bot kits (Arduino and Scratch)</p>
+            </Content>
+            <Content OuterClass="col-12" InnerClass="p-3">
                 <p class="mb-0"><b>SPQR Robotic Team</b> Software Developer (2018-2020)</p>
                 <p class="mb-0"><b>Romecup Soccer Lightweight</b> National Champions 2018-2019</p>
                 <p class="mb-0"><b>Robocup Soccer Lightweight</b> Best Robot Design, Sydney 2019</p>
-            </Content>
-            <Content OuterClass="col-12" InnerClass="p-3">
-                <p class="mb-0"><b>ITIS G.Galilei</b> Tutor STEM (2019-2020) </p>
-                <p class="mb-0">Classes of robotics for younger students, from the basics of designing to more complex systems.</p>
-                <p class="mb-0">Following the path of the previous champions, the classes Following the path of the previous champions, the classes Following the path of the previous champions, the classes </p>
-                <p class="mb-0">Following the path of the previous champions, the classes Following the path of the previous champions, the classes Following the path of the previous champions, the classes </p>
-                <p class="mb-0">Following the path of the previous champions, the classes Following the path of the previous champions, the classes Following the path of the previous champions, the classes </p>
+                <p class="mb-0">Software developer for the microcontroller units of the robots, all built from scratch by our team.</p>
+                <p class="mb-0">The first generation of robots were based on the Arduino Mega for the sensors and game logic and a basic implementation of the OpenMV M7. <i>1st place in Romecup (Rome, Italy)</i></p>
+                <p class="mb-0">The second generation were using the board Teensy 3.0 (Arduino framewrok) as main microcontroller, an Arduino Mini as subordinary microcontroller (handling only the IR ball sensors) and an OpenMV M7 with conic vision for tracking the goals. <i>1st place in Romecup (Rome, Italy), Best Robot Design (Sydney, Australia)</i></p>
+                <p class="mb-0 mt-2"><b>GopStop! Robotic Team</b> Software Developer and PCB Designer (2020)</p>
+                <p class="mb-0">First experience in the Robocup Soccer Open League with a friendly team. Built the software around the STM Nucleo 32, with the MBED framework, for handling all the sensors and the game logic.</p>
+                <p class="mb-0">OpenMV H7 with MicroPython for the machine vision of the robot, for tracking the ball and the goals.</p>
+                <p class="mb-0">Designed the PCB from scratch with the open source software EAGLE CAD</p>
+                <p class="mb-0 mt-2"><b>SPQR Robotic Team</b> External Tutor (2020-2022)</p>
+                <p class="mb-0">External consultant for the new generation of SPQR</p>
             </Content>
         }
         @if (_toggleContent[1])
