@@ -1,7 +1,6 @@
 ﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
-
 html, body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 a, .btn-link {
@@ -14,12 +13,6 @@ a, .btn-link {
     border-color: #1861ac;
 }
 
-app {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-}
-
 .top-row {
     height: 3.5rem;
     display: flex;
@@ -28,6 +21,11 @@ app {
 
 .main {
     flex: 1;
+    color: #fcb711;
+}
+
+.navbar {
+    height: 45px !important;
 }
 
     .main .top-row {
@@ -47,7 +45,7 @@ app {
 }
 
 .sidebar {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    background-color: #080708;
 }
 
     .sidebar .top-row {
@@ -151,9 +149,6 @@ app {
 }
 
 @media (min-width: 768px) {
-    app {
-        flex-direction: row;
-    }
 
     .sidebar {
         width: 250px;
@@ -180,4 +175,39 @@ app {
         /* Never collapse the sidebar for wide screens */
         display: block;
     }
+}
+
+.bg-pf {
+    background-color: #292526;
+}
+
+.header {
+    background-color: #0c0b0b;
+}
+
+.nav-link {
+    color: #fcb711;
+}
+
+.outer {
+    position: relative;
+}
+
+    .outer:before, .outer:after, .inner:before, .inner:after {
+        content: '';
+        position: absolute;
+        height: 10%;
+        width: 10%;
+    }
+
+.outer:before {
+    border-left: 3px solid #fcb711;
+    border-top: 3px solid #fcb711;
+}
+
+.inner:after {
+    bottom: 0;
+    right: 0;
+    border-right: 3px solid #fcb711;
+    border-bottom: 3px solid #fcb711;
 }
