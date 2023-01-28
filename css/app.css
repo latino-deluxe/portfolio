@@ -167,6 +167,12 @@ a, .btn-link {
         padding-right: 1.5rem !important;
     }
 
+    .main > .container-xl {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+        height: 100vh !important;
+    }
+
     .navbar-toggler {
         display: none;
     }
@@ -193,7 +199,7 @@ a, .btn-link {
     position: relative;
 }
 
-    .outer:before, .outer:after, .inner:before, .inner:after {
+    .outer:before, .inner:after {
         content: '';
         position: absolute;
         height: 10%;
