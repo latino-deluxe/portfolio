@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\manu0\\Documents\\latino.portfolio\\portfolio\\portfolio\\portfolio.csproj": {}
+    "C:\\Users\\manu0\\Documents\\latino.portfolio\\portfolio\\portfolio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\manu0\\Documents\\latino.portfolio\\portfolio\\portfolio\\portfolio.csproj": {
+    "C:\\Users\\manu0\\Documents\\latino.portfolio\\portfolio\\portfolio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\manu0\\Documents\\latino.portfolio\\portfolio\\portfolio\\portfolio.csproj",
+        "projectUniqueName": "C:\\Users\\manu0\\Documents\\latino.portfolio\\portfolio\\portfolio.csproj",
         "projectName": "portfolio",
-        "projectPath": "C:\\Users\\manu0\\Documents\\latino.portfolio\\portfolio\\portfolio\\portfolio.csproj",
+        "projectPath": "C:\\Users\\manu0\\Documents\\latino.portfolio\\portfolio\\portfolio.csproj",
         "packagesPath": "C:\\Users\\manu0\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\manu0\\Documents\\latino.portfolio\\portfolio\\portfolio\\obj\\",
+        "outputPath": "C:\\Users\\manu0\\Documents\\latino.portfolio\\portfolio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\manu0\\AppData\\Roaming\\NuGet\\NuGet.Config",

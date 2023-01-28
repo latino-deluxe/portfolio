@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3yZmb9h8+siHg2zLOqmtHrx41SVCI23IUkc/NInsG8hNvx/blpGDf9INkBFMwxBLzgORnVMQSh7dnHk7+QB+Nw==",
+  "dgSpecHash": "9eo+YXFWq/8eoVATHGgSvcZhFuA8ajEa4LBIT96Wj/CR5adPJhY1km0GfK0BRoX1CPyh1lh0XmcUFM1hUax/aw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\manu0\\Documents\\latino.portfolio\\portfolio\\portfolio\\portfolio.csproj",
+  "projectFilePath": "C:\\Users\\manu0\\Documents\\latino.portfolio\\portfolio\\portfolio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\manu0\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.6\\microsoft.aspnetcore.authorization.3.1.6.nupkg.sha512",
     "C:\\Users\\manu0\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.6\\microsoft.aspnetcore.components.3.1.6.nupkg.sha512",
