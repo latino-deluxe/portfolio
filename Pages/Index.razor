@@ -7,7 +7,7 @@
                 <p class="my-auto">Experiences</p>
             </div>
             <div class="mx-2" @onclick="() => ToggleContent(1)">
-                <p class="my-auto">Contacts</p>
+                <p class="my-auto">About Me</p>
             </div>
         </div>
     </nav>
@@ -25,8 +25,8 @@
             <Content OuterClass="col-12 col-md-6 mb-md-4" InnerClass="p-3">
                 <p class="mb-0"><b>Domec S.p.A.</b> ASP.NET Developer & Frontend (2022-2023)</p>
                 <p class="mb-0">Experience in styling pages</p>
-                <p class="mb-0">HTML, CSS, Js | Razor Views | Blazor</p>
-                <p class="mb-0">Experience with mediatr pattern, service pattern, hanlding data from db (NHibernate), light knowledge of SQL and relational databases.</p>
+                <p class="mb-0">HTML, CSS, Jquery | Razor Views | Blazor</p>
+                <p class="mb-0">Experience with mediatr pattern, service pattern, handling data from db (NHibernate), light knowledge of SQL and relational databases.</p>
             </Content>
             <Content OuterClass="col-12 col-md-6 mb-md-4" InnerClass="p-3">
                 <p class="mb-0"><b>ITIS G.Galilei</b> Tutor STEM (2019-2020) </p>
@@ -50,8 +50,20 @@
         }
         @if (_toggleContent[1])
         {
-            <Content OuterClass="col-12 col-md-6" InnerClass="p-3">
-                <p class="mb-0">Contatti</p>
+            <Content OuterClass="col-12" InnerClass="p-3">
+                <h5><strong>Contacts</strong></h5>
+                <div class="d-flex justify-content-between">
+                    <p class="mb-0"><b>Email</b></p>
+                    <p class="mb-0">emanuelelatino2206@gmail.com</p>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <p class="mb-0"><b>Phone</b></p>
+                    <p class="mb-0">+39 351 577 6954</p>
+                </div>
+                <div class="d-flex justify-content-between mb-3">
+                    <p class="mb-0"><b>LinkedIn</b></p>
+                    <a href="https://www.linkedin.com/in/emanuele-latino-714ba6199/" target="_blank">Emanuele Latino</a>
+                </div>
             </Content>
         }
     </div>
